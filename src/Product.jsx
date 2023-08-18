@@ -6,9 +6,9 @@ const Products = (props) => {
 
     return (
         <div>
-            <Card style= {{width: '18rem', padding:'1rem', display:'flex', height:'50rem'}}>
+            <Card style= {{width: '18rem', padding:'1rem', display:'flex', height:'55rem'}}>
                 <Card.Body>
-            <Card.Img src={image} alt=""/>
+            <Card.Img src={image} alt=""  style={{height:'15rem'}}/>
             <Card.Text >{id}</Card.Text>
             <Card.Title>{title}</Card.Title>
             <Card.Text style={{fontWeight:'bolder'}}>{price}€</Card.Text>
