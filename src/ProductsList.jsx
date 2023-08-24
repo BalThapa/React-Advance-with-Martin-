@@ -15,6 +15,7 @@ const ProductsList = () => {
         <div style={{display: 'flex', flexWrap: 'wrap', margin: '3rem', gap:"3rem"}}>
             {Array.isArray(products) && products.map((product) => (
                 <Products key={product.id} {...product}/>
+                
             ))}
             
         </div>
