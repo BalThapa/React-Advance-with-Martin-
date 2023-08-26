@@ -1,7 +1,6 @@
 import Products from './Product';
 import axios from 'axios';
 import Header from './Components/Header';
-import Detail from './Detail';
 
 
 const api = "https://fakestoreapi.com/products/";
@@ -18,7 +17,7 @@ const ProductsList = () => {
                 <Products key={product.id} {...product}/>  
                 
             ))}
-           <Detail/> 
+           
         </div>
         </div>
     )
