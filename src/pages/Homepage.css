@@ -7,7 +7,7 @@
 
 .herobanner {
     width: 100%;
-    min-height: calc(90vh - 130px);
+    min-height: calc(70vh - 100px);
     background-color: aqua;
     display: flex;
     flex-direction: column;

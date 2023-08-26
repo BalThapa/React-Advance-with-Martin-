@@ -22,10 +22,10 @@ const Detail = () => {
     return (
         <div className='detailList'>
             <div className='detailCard'>
-            <Card style= {{width: '20rem', padding:'1rem', display:'flex', height:'65rem', alignItems:'center', boxShadow: '0 0 5px rgb(92, 92, 92)'}}>
+            <Card style= {{width: '35rem', padding:'1rem', display:'flex', height:'58rem', alignItems:'center', boxShadow: '0 0 5px rgb(92, 92, 92)'}}>
                  <Card.Body style={{display: 'flex', flexDirection: 'column',
                     alignItems: 'center', justifyContent:'space-around'}}>
-                    <Card.Img src={data.image} alt=""  style={{height:'15rem'}}/>
+                    <Card.Img src={data.image} alt=""  style={{height:'15rem' ,width:'15rem'}}/>
                     <Card.Text style={{border:'none',backgroundColor:'orange',      color:'white', borderRadius:'50%', width:'3rem',height:'3rem', fontWeight:'bolder',fontSize:'x-large', padding:'6px', margin:'1rem' }} >{data.id}</Card.Text>
                     <Card.Title>{data.title }</Card.Title>
                     <Card.Text style={{fontWeight:'bolder'}}>Price: {data.price}€</Card.Text>                              

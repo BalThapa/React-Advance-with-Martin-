@@ -1,9 +1,8 @@
-import Test from "../Test";
-import Detail from "../Detail";
-//import Product from "../Product";
-import Homepage from "../Homepage";
+import Test from "../pages/Test";
+import Detail from "../pages/Detail";
+import Homepage from "../pages/Homepage";
 import { createBrowserRouter } from "react-router-dom";
-import ProductsList from "../ProductsList";
+import ProductsList from "../pages/ProductsList";
 
 
 

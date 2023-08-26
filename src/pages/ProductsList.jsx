@@ -1,7 +1,6 @@
 import Products from './Product';
 import axios from 'axios';
-import Header from './Components/Header';
-
+import Header from '../Components/Header';
 
 const api = "https://fakestoreapi.com/products/";
 
