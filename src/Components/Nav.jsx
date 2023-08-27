@@ -21,10 +21,10 @@ const Nav = () => {
                         </Dropdown.Toggle>
 
                         <Dropdown.Menu style={{backgroundColor:'lightBlue', border:'none', color: 'rgb(241, 92, 92)'}}>
-                            <Dropdown.Item href="#/action-1">Men's Clothing</Dropdown.Item>
-                            <Dropdown.Item href="#/action-2">Women's Clothing</Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">Jewelery</Dropdown.Item>
-                            <Dropdown.Item href="#/action-3">Electronics</Dropdown.Item>
+                            <Dropdown.Item href="./men">Men's Clothing</Dropdown.Item>
+                            <Dropdown.Item href="./women">Women's Clothing</Dropdown.Item>
+                            <Dropdown.Item href="./jewelery">Jewelery</Dropdown.Item>
+                            <Dropdown.Item href="./electronics">Electronics</Dropdown.Item>
                         </Dropdown.Menu>
                     </Dropdown>
                         

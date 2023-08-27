@@ -1,29 +1,45 @@
-import Test from "../pages/Test";
+import Jewelery from "../pages/Jewelery";
 import Detail from "../pages/Detail";
 import Homepage from "../pages/Homepage";
 import { createBrowserRouter } from "react-router-dom";
 import ProductsList from "../pages/ProductsList";
-
-
+import Electronics from "../pages/Electronics";
+import Men from "../pages/Men";
+import Women from "../pages/Women";
 
 const router = createBrowserRouter([
-    
-    {
-      path: "/test",
-      element: <Test />,
-    },
-    {
-      path: "/detail/:productId", //priduct id is for rendering the description as per id
-      element: <Detail />,
-    },
-    {
-      path: "/products",
-      element: <ProductsList />,
-    },
-    {
-      path: "/",
-      element: <Homepage />,
-    },
-  ]);
+  {
+    path: "/jewelery",
+    element: <Jewelery />,
+  },
+  {
+    path: "/electronics",
+    element: <Electronics />,
+  },
+  {
+    path: "/men",
+    element: <Men />,
+  },
+  {
+    path: "/women",
+    element: <Women />,
+  },
+  {
+    path: "/electronics",
+    element: <Electronics />,
+  },
+  {
+    path: "/detail/:productId", //priduct id is for rendering the description as per id
+    element: <Detail />,
+  },
+  {
+    path: "/products",
+    element: <ProductsList />,
+  },
+  {
+    path: "/",
+    element: <Homepage />,
+  },
+]);
 
-  export default router;
+export default router;
