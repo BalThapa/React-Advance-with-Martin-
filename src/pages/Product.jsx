@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import {Link} from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 
+
 const Products = (props) => {
      const { id, title,  price,  image} = props;
 
@@ -21,6 +22,7 @@ const Products = (props) => {
                 </Card.Body> 
             </Card> 
          
+            
         </div>
     );
 };

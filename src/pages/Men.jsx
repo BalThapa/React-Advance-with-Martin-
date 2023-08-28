@@ -1,6 +1,7 @@
 import Products from './Product';
 import axios from 'axios';
 import Header from '../Components/Header';
+import Footer from '../Components/Footer';
 
 const api = "https://fakestoreapi.com/products/category/men's clothing";
 
@@ -17,6 +18,9 @@ const Men = () => {
                 
             ))}
            
+        </div>
+        <div>
+            <Footer />
         </div>
         </div>
     )
