@@ -4,6 +4,7 @@ import "./Homepage.css";
 import Footer from '../Components/Footer';
 import {Link} from 'react-router-dom';
 
+
 const Homepage = () => {
     return (
         <div>
@@ -36,11 +37,14 @@ const Homepage = () => {
             </div>
             <div className='discount'>
                 <h1>Get heavy Discount in ALL Collection</h1>
-                <img src='https://media.allure.com/photos/57dc1a877b47312c0ad83725/16:9/w_2560%2Cc_limit/model%2520jcrew.jpg' alt="modles"  />
+                <img src='https://media.allure.com/photos/57dc1a877b47312c0ad83725/16:9/w_2560%2Cc_limit/model%2520jcrew.jpg' alt="modle"  />
                 <div className='box'>
                 <h1>Get yours now</h1>
                 <Link to= {`/products`} style={{textDecoration:'none'}}><h4>←Shop Now</h4></Link>
                 </div>
+            </div>
+            <h2>FIND US ON</h2>
+            <div>
             </div>
             <div>
                 <Footer/>
