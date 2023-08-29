@@ -7,7 +7,7 @@
 
 .herobanner {
     width: 100%;
-    min-height: calc(100vh - 120px);
+    min-height: calc(85vh - 120px);
     background-color: aqua;
     display: flex;
     flex-direction: column;
@@ -25,6 +25,7 @@
 
 .discount {
     height:20rem;
+    width: 100%;
     background-color:rgb(113, 227, 226); ;
     display: flex;
     justify-content: space-around;
@@ -61,5 +62,14 @@
     background-color: black;
     padding: 1rem;
     color: white;
+}
+
+.icons {
+    display:flex;
+    justify-content: center;
+    padding: 2rem;
+    gap:4rem;
+    font-size:5rem;
+   
 }
 

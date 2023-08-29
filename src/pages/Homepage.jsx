@@ -3,6 +3,8 @@ import Header from "../Components/Header";
 import "./Homepage.css";
 import Footer from '../Components/Footer';
 import {Link} from 'react-router-dom';
+import { FaChrome, FaWhatsapp, FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 'react-icons/fa';
+
 
 
 const Homepage = () => {
@@ -43,8 +45,15 @@ const Homepage = () => {
                 <Link to= {`/products`} style={{textDecoration:'none'}}><h4>←Shop Now</h4></Link>
                 </div>
             </div>
-            <h2>FIND US ON</h2>
-            <div>
+            <h2 style={{marginTop:'1rem'}}>FIND US ON</h2>
+            <div className='icons'>
+                <FaWhatsapp />
+                <FaTwitter />
+                <FaInstagram />
+                <FaFacebook />
+                <FaChrome />
+                <FaYoutube />
+                
             </div>
             <div>
                 <Footer/>
