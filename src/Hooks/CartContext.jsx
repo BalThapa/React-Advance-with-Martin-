@@ -1,16 +1,17 @@
-// import React, { createContext, useContext, useState } from 'react';
+// import React from 'react';
+// import { createContext, useState, useContext} from 'react';
 
-// const ShoppoContext = createContext();
+// const CartContext = createContext();
 
-// export const AddCartProvider = ({ children }) => {
-
-//     const [count, setCount] = useState(0);
-//     return (
-//         <ShoppoContext.Provider value={{ count, setCount }}>
+//  export const ContextProvider = ({ children }) => {
+//     const [count, setCount]= useState(0);
+//     return(
+//         <CartContext.Provider value={{count, setCount}} >
 //             {children}
-//         </ShoppoContext.Provider>
+//         </CartContext.Provider>
 //     )
 // }
-// export const useAddCart = () => {
-//     return useContext(ShoppoContext);
-// };
+// export const Cart=()=>{
+//     return useContext
+// }
+ 

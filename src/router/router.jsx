@@ -1,7 +1,7 @@
 import Jewelery from "../pages/Jewelery";
 import Detail from "../pages/Detail";
 import Homepage from "../pages/Homepage";
-import Cart from "../pages/Cart";
+import ShoppoCart from "../pages/ShoppoCart";
 import { createBrowserRouter } from "react-router-dom";
 import ProductsList from "../pages/ProductsList";
 import Electronics from "../pages/Electronics";
@@ -42,8 +42,8 @@ const router = createBrowserRouter([
     element: <Homepage />,
   },
   {
-    path: "/cart",
-    element: <Cart />,
+    path: "/shoppocart",
+    element: <ShoppoCart />,
   },
 ]);
 

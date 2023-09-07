@@ -31,7 +31,7 @@ const Nav = () => {
                         
                     </li>
                     <li>
-                        <NavLink to='/cart'><FaShoppingCart/></NavLink>
+                        <NavLink to='/shoppocart'><FaShoppingCart/></NavLink>
                     </li>
                 </ul>
             </nav> 
