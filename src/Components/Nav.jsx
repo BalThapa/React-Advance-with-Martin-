@@ -2,6 +2,7 @@ import React from 'react';
 import './Nav.css';
 import { NavLink } from 'react-router-dom';
 import Dropdown from 'react-bootstrap/Dropdown';
+import { FaShoppingCart } from 'react-icons/fa';
 
 const Nav = () => {
     return (
@@ -15,8 +16,8 @@ const Nav = () => {
                        <NavLink to='/Products'>ProductsList</NavLink> 
                     </li>
                     <li>
-                    <Dropdown>
-                        <Dropdown.Toggle variant="success" id="dropdown-basic" style={{backgroundColor:'rgb(0, 60, 95)', border:'none', color: 'rgb(241, 92, 92)', fontWeight:'bolder'}}>
+                    <Dropdown >
+                        <Dropdown.Toggle variant="success" id="dropdown-basic"  style={{backgroundColor:'rgb(0, 60, 95)', border:'none', color: 'rgb(241, 92, 92)', fontWeight:'bolder', fontSize:'x-large'}}>
                         Categories
                         </Dropdown.Toggle>
 
@@ -28,6 +29,9 @@ const Nav = () => {
                         </Dropdown.Menu>
                     </Dropdown>
                         
+                    </li>
+                    <li>
+                        <NavLink to='/cart'><FaShoppingCart/></NavLink>
                     </li>
                 </ul>
             </nav> 

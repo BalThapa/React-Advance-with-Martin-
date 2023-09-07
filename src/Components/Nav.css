@@ -2,6 +2,7 @@ nav ul li a {
     color: inherit;
     padding: 1rem;
     text-decoration: none;
+    font-size: x-large;
     
 }
 
@@ -10,6 +11,14 @@ a:hover {
 }
 
 a.active{
+    color: rgb(232, 253, 0);
+}
+
+#dropdown-basic:hover {
+    text-decoration: underline;
+}
+
+.b.active{
     color: rgb(232, 253, 0);
 }
 

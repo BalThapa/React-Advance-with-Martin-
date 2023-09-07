@@ -1,6 +1,7 @@
 import Jewelery from "../pages/Jewelery";
 import Detail from "../pages/Detail";
 import Homepage from "../pages/Homepage";
+import Cart from "../pages/Cart";
 import { createBrowserRouter } from "react-router-dom";
 import ProductsList from "../pages/ProductsList";
 import Electronics from "../pages/Electronics";
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Homepage />,
+  },
+  {
+    path: "/cart",
+    element: <Cart />,
   },
 ]);
 
