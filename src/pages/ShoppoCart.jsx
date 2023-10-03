@@ -11,10 +11,11 @@ const ShoppoCart = () => {
     return (
         <div>
         <Header/>
+        <div style={{display: 'flex', flexWrap: 'wrap', justifyContent:'center', marginLeft: '4rem'}}>
+
+        <h1>Cart</h1>
         
-        <Container>
-            <h1>Cart</h1>
-            
+        <Container style={{display: 'flex', flexWrap: 'wrap', justifyContent:'center', margin: '4rem', gap:"4rem"}}>   
             {cartItems.length === 0 &&
             <div>
              <h2>Your cart is empty!!</h2> 
@@ -31,6 +32,7 @@ const ShoppoCart = () => {
             ))}
             
         </Container>
+        </div>
         </div>
     );
 };

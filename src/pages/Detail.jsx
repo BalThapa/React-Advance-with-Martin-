@@ -5,7 +5,6 @@ import { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import Card from 'react-bootstrap/Card';
 import "./Detail.css";
-import AddButton from '../Components/AddButton';
 
 
 const Detail = () => {
@@ -35,7 +34,6 @@ const Detail = () => {
                      <Card.Text style={{fontWeight:'bolder', color:'red'}}>Rating: {data.rating ? data.rating.rate:'N/A'}</Card.Text>
                      <Card.Text style={{fontWeight:'bolder'}}>Count: {data.rating ?data.rating.count:'N/A'}</Card.Text> 
                     <Card.Text style={{fontWeight:'bolder'}}>Category: {data.category}</Card.Text>
-                    <AddButton />
                 </Card.Body> 
                      <Button variant="secondary" onClick={() => navigate(-1)} style={{textDecoration:'none', color:'wheat', fontSize:'larger', width: '10em'}}>Go back</Button>
             </Card>                        

@@ -18,7 +18,7 @@ const Products = (props) => {
     }
     const handleRemoveProduct = () =>{
         dispatch(changeQuantity({...product,quantity:-1}))
-        alert('Your item is removed');
+        alert('Do you want to remove this item?');
     }
     
 

@@ -30,7 +30,7 @@ const router = createBrowserRouter([
     element: <Electronics />,
   },
   {
-    path: "/detail/:productId", //priduct id is for rendering the description as per id
+    path: "/detail/:productId", //product id is for rendering the description as per id
     element: <Detail />,
   },
   {
